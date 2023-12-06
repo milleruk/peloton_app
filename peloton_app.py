@@ -7,7 +7,7 @@ import altair as alt
 import datetime
 import streamlit as st
 from PIL import Image
-from plotnine import *
+# from plotnine import *
 
 st.set_page_config(layout       = 'wide', 
                    page_title   = 'Peloton Statistics' ,
