@@ -171,8 +171,7 @@ with tab2:
     col2.dataframe(data_filtered[['instructor', 'difficulty_rating']] \
         .groupby('instructor') \
         .mean() \
-        .sort_values('difficulty_rating', ascending=False) \
-        .style.background_gradient(cmap= 'bwr')
+        .sort_values('difficulty_rating', ascending=False)
     )
 
     st.write("Average Leaderboard Ranking Percentile (monthly)")           
