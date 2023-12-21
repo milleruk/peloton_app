@@ -14,7 +14,7 @@ st.set_page_config(layout       = 'wide',
                    menu_items   = {'Get Help': None, 'Report a bug': None, 'About': None},
                    page_icon    = ':bike')
 
-username = 'scothomas24@me.com'
+username = 'ChaseTheHare'
 data = pd.read_pickle("peloton_data.pkl")
 
 # convert to dataframe, format dates      
